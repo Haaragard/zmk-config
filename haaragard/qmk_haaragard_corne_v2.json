@@ -155,7 +155,7 @@
       "ANY(&bl BL_CYCLE)",
       "KC_NO",
       "ANY(&bl BL_INC)",
-      "ANY(&bl BL_DEC)",
+      "ANY(&dbl BL_DEC)",
       "KC_NO",
       "ANY(&bt BT_SEL 0)",
       "ANY(&bt BT_PRV)",
@@ -175,12 +175,12 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "UG_SPDU",
+      "ANY(&rgb_ug RGB_SPI)",
       "KC_TRNS",
       "KC_NO",
       "KC_NO",
       "KC_TRNS",
-      "UG_SPDD"
+      "ANY(&rgb_ug RGB_SPD)"
     ]
   ],
   "author": ""
