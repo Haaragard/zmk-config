@@ -23,11 +23,11 @@
           >;
         };layer2 {
           bindings = <
-          &kp TAB [[KC_EXLM]] [[KC_AT]] [[KC_HASH]] [[KC_DLR]] [[KC_PERC]] [[KC_CIRC]] [[KC_AMPR]] [[KC_ASTR]] [[KC_LPRN]] [[KC_RPRN]] &kp BACKSPACE &kp LEFT_SHIFT &none &none &none &none &none &kp MINUS &kp EQUAL &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp BACKSLASH &kp GRAVE &kp LEFT_CONTROL &none &none &none &none &none [[KC_UNDS]] [[KC_PLUS]] [[KC_LCBR]] [[KC_RCBR]] [[KC_PIPE]] [[KC_TILD]] &kp LEFT_GUI &mo 3 &kp SPACE &kp ENTER &trans &kp RIGHT_ALT
+          &kp TAB &none &none &none &none &none &none &none &none &none &none &kp BACKSPACE &kp LEFT_SHIFT &none &none &none &none &none &kp MINUS &kp EQUAL &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp BACKSLASH &kp GRAVE &kp LEFT_CONTROL &none &none &none &none &none &none &none &none &none &none &none &kp LEFT_GUI &mo 3 &kp SPACE &kp ENTER &trans &kp RIGHT_ALT
           >;
         };layer3 {
           bindings = <
-          [[QK_BOOT]] &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &bt BT_SEL 0 &bt BT_PRV &bt BT_NXT &none &none &none &none &none &none &none &none &none &bt BT_CLR &none &none &none &none &none &none &trans &none &none &trans &none
+          &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &bt BT_SEL 0 &bt BT_PRV &bt BT_NXT &none &none &none &none &none &none &none &none &none &bt BT_CLR &none &none &none &none &none &none &trans &none &none &trans &none
           >;
         };
     };
