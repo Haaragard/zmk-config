@@ -14,7 +14,7 @@
   / {
     keymap {
       compatible = "zmk,keymap";
-  layer0 {
+      layer0 {
           bindings = <
           &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp BACKSPACE &kp LEFT_SHIFT &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMICOLON &kp SINGLE_QUOTE &kp LEFT_CONTROL &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp SLASH &kp ESCAPE &kp LEFT_GUI &mo 1 &kp SPACE &kp ENTER &mo 2 &kp RIGHT_ALT
           >;
@@ -31,6 +31,16 @@
           &none &none &none &none &none &none &none &none &none &none &none &none &bl BL_TOG &bl BL_INC &bl BL_CYCLE &none &none &none &bt BT_SEL 0 &bt BT_PRV &bt BT_NXT &none &none &none &none &bl BL_DEC &none &none &none &none &bt BT_CLR &none &none &none &none &none &none &trans &none &none &trans &none
           >;
         };
+    };
+
+    chosen {
+      zmk,backlight = &backlight;
+    };
+
+    backlight: backlight {
+      compatible = "gpio-leds";
+      label = "Backlight";
+      led_gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>;
     };
   };
   
