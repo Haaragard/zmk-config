@@ -18,7 +18,11 @@
   backlight: backlight {
     compatible = "gpio-leds";
     label = "Backlight";
-    led_gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>;
+
+    led0: led_0 {
+      gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>;
+      label = "Backlight LED";
+    };
   };
 
   keymap {
